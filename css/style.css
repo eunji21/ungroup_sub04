@@ -1,0 +1,242 @@
+*{margin:0; padding:0;}
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+ul{list-style: none;}
+a{text-decoration: none; color:#000;}
+
+body{color:#000; font-size: 13px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+/* header */
+#header{width:1200px; margin:0 auto; 
+    height:72px; position: relative;
+    margin-bottom: 130px;
+}
+.nav{float: left; text-align: center;}
+.nav>li{float: left;}
+.nav>li>a{display: block;
+        font-weight: bold;
+        padding:40px 30px 15px 30px;
+
+}
+.nav>li>a:hover {color:#003ec6;}
+.light{color: #003ec6; 
+    border-bottom:3px solid #003ec6;
+    }
+
+.logo{position: absolute; top: 20px; left: 50%;
+    margin-left: -107.5px;
+}
+.link{float: right;}
+.link>li{float: left;}
+.link>li>a{display:block;
+        padding:40px 30px 15px 17px;
+        font-weight: bold;
+}
+.link>li>a:hover {color:#003ec6;}
+
+
+/* box */
+#box{width: 1352px; height: 570px; 
+    margin: 0 auto;
+    }
+h1{margin-bottom: 10px;  text-align: center;}
+.title{font-size: 17px;  text-align: center;
+        margin-bottom: 100px;
+}
+
+
+.box_ul li{float: left; height: 345px;
+           margin-right: 34px; 
+           position: relative;
+           overflow: hidden;
+        }
+.box_ul li img{display:block;}
+
+.text{
+    font-size: 15px;
+    position:absolute;/*자식*/ top:346px; left:0;
+    width:304px; height:100px; 
+    background-color: rgba(0,0,0,0.7);
+    color:#fff; text-align: center;
+    padding-top:23px; box-sizing: border-box;
+    
+    transition: all 1s;
+}
+
+.box_ul li a:hover .text{transform: translateY(-100px);}
+
+
+
+
+/* box2 */
+#box2{width: 1352px; height: 800px; margin: 0 auto;
+     position: relative;
+}
+.box2_ul{width: 812px; position: absolute; left: 0; top: 0;}
+.box2_ul li{float: left; text-align: center; 
+            margin: 0 34px 41px 0;
+            position: relative;
+            overflow: hidden;
+}
+.box2_ul li img{display:block;}
+
+.text2{
+    font-size: 15px;
+    position:absolute;/*자식*/ top:421px; left:0;
+    width:372px; height:116px; 
+    background-color: rgba(0,0,0,0.7);
+    color:#fff; text-align: center;
+    padding-top:23px; box-sizing: border-box;
+    
+    transition: all 1s;
+}
+
+
+.box2_ul li a:hover .text2{transform: translateY(-116px);}
+
+.text2_small{
+    font-size: 15px;
+    position:absolute;/*자식*/ top:345px; left:0;
+    width:372px; height:116px; 
+    background-color: rgba(0,0,0,0.7);
+    color:#fff; text-align: center;
+    padding-top:23px; box-sizing: border-box;
+    
+    transition: all 1s;
+}
+
+
+.box2_ul li a:hover .text2_small{transform: translateY(-116px);}
+
+
+/* box2_ul2 */
+.box2_ul2{position: absolute; right:0; top: 0;
+        width: 500px; height: 746px; margin-right: 34px;
+        margin-bottom: 34px;
+}
+.box2_ul2 li{float: left; text-align: center; 
+    margin-bottom: 34px;
+    position: relative;
+    overflow: hidden;
+    padding-right: 34px;
+}
+.box2_ul2 li img{display:block;}
+
+.text3{
+font-size: 15px;
+position:absolute;/*자식*/ top:808px; left:0;
+width:499px; height:116px; 
+background-color: rgba(0,0,0,0.7);
+color:#fff; text-align: center;
+padding-top:23px; box-sizing: border-box;
+
+transition: all 1s;
+}
+
+
+.box2_ul2 li a:hover .text3{transform: translateY(-116px);}
+
+
+/* box3 */
+#box3{width: 1352px; height: 800px; margin: 0 auto;
+    position: relative;
+}
+.box3_ul{position: absolute; left: 0; bottom: 0;}
+.box3_ul li{float: left; text-align: center; 
+           margin: 0 36px 34px 0;
+           position: relative;
+           overflow: hidden;
+}
+.box3_under{position: absolute; bottom: -288px; right: 0;}
+
+.box3_ul li img{display:block;}
+
+.text4{
+   font-size: 15px;
+   position:absolute;/*자식*/ top:421px; left:0;
+   width:372px; height:116px; 
+   background-color: rgba(0,0,0,0.7);
+   color:#fff; text-align: center;
+   padding-top:23px; box-sizing: border-box;
+   
+   transition: all 1s;
+}
+.text3-2{
+    font-size: 15px;
+    position:absolute;/*자식*/ top:712px; left:0;
+    width:499px; height:116px; 
+    background-color: rgba(0,0,0,0.7);
+    color:#fff; text-align: center;
+    padding-top:23px; box-sizing: border-box;
+    
+    transition: all 1s;
+    }
+
+.box3_ul li a:hover .text4{transform: translateY(-116px);}
+.box3_ul li a:hover .text3-2{transform: translateY(-116px);}
+
+.logo_img{padding:105px 34px 0 0; text-align: right;}
+
+
+/* box4 */
+#box4{width: 1352px; height: 450px; 
+    margin: 0 auto;
+    }
+
+
+/* 더보기 버튼 */
+.all_btn{width: 1352px; height: 150px; margin: 0 auto; text-align: center;}
+
+.btn{display: inline-block;
+    text-align: center;
+    padding: 7px 80px;
+    background:#fff;
+    color:#003ec6;
+              line-height:30px;
+              
+              border:1px solid #003ec6;
+              text-align:center;
+              text-decoration:none;
+              
+              transition-property:all; /*속성값*/
+              transition-duration:0.3s; /*효과완료하는 시간*/
+              transition-timing-function:ease-in-out;  /*효과의 속도곡선*/
+              transition-delay:0; /*효과의 지연되는 시간*/
+
+  }
+.btn:hover{				
+/*마우스호버시 효과*/
+color: #fff; 
+background:#003ec6;
+
+text-align:center;
+text-decoration:none;
+}
+
+
+/* footer */
+#footer{width: 100%; height: 420px;
+    background-color: #d7d7d750;
+    font-weight: 300;
+}
+.footer_inner{width: 1320px; margin: 0 auto;
+           height: 420px;
+}
+
+.footer_ul{float: left;
+        padding-top: 50px;
+        font-size: 12px;
+      }
+.footer_ul li{padding-bottom: 10px;}
+.footer_text{padding-top: 20px;line-height: 30px;}
+
+.footer_icon{float: right;
+          padding-top: 90px;
+          margin-right: 108px;
+      }
+.footer_icon li{float:left; padding-left: 15px;}
+
+.footer_link{padding-top: 330px; padding-left: 80px;}
+.footer_link li{float: left; padding-left: 50px;}
+.footer_logo{padding-left: 130px;}
